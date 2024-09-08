@@ -1,32 +1,32 @@
-Event Scheduling System
+# Event Scheduling System
 
 An Event Scheduling System is a software application designed to streamline the planning, organizing, and management of events. It provides an integrated platform for users to create, schedule, and track events efficiently, offering tools for automating various aspects of event management such as invitations, notifications, and resource allocation. The system is often used in corporate, educational, and social settings for organizing meetings, conferences, seminars, or any events requiring coordination between multiple participants.
 
 
 
-Key Features:
-Event Creation and Customization: Users can define event details such as date, time, location, and event type, along with other customizable parameters.
+# Key Features:
+**Event Creation and Customization:** Users can define event details such as date, time, location, and event type, along with other customizable parameters.
 
-Participant Management: The system allows for easy addition, modification, and management of attendees. This may include sending invitations, tracking RSVPs, and handling guest lists.
+**Participant Management:** The system allows for easy addition, modification, and management of attendees. This may include sending invitations, tracking RSVPs, and handling guest lists.
 
-Resource Scheduling: It helps allocate and schedule resources such as meeting rooms, equipment, and staff, ensuring there are no conflicts.
+**Resource Scheduling:** It helps allocate and schedule resources such as meeting rooms, equipment, and staff, ensuring there are no conflicts.
 
-Notification and Reminder System: Automatic notifications and reminders can be sent to participants to inform them of upcoming events or any changes.
+**Notification and Reminder System:** Automatic notifications and reminders can be sent to participants to inform them of upcoming events or any changes.
 
-Calendar Integration: The system can integrate with users’ calendars (Google, Outlook, etc.) to provide a unified view of scheduled events.
+**Calendar Integration:** The system can integrate with users’ calendars (Google, Outlook, etc.) to provide a unified view of scheduled events.
 
-Reporting and Analytics: The system can generate reports and provide analytics on attendance, event feedback, resource utilization, and more for post-event evaluation.
+**Reporting and Analytics:** The system can generate reports and provide analytics on attendance, event feedback, resource utilization, and more for post-event evaluation.
 
-Benefits:
-Improved Efficiency: Automates the manual tasks of scheduling and managing events.
-Enhanced Communication: Ensures timely communication with participants through notifications and reminders.
-Reduced Scheduling Conflicts: Offers real-time updates and resource management to avoid double bookings.
-Data-Driven Decisions: Provides insights for optimizing future events based on feedback and resource allocation.
+# Benefits:
+**Improved Efficiency:** Automates the manual tasks of scheduling and managing events.
+**Enhanced Communication:** Ensures timely communication with participants through notifications and reminders.
+**Reduced Scheduling Conflicts:** Offers real-time updates and resource management to avoid double bookings.
+**Data-Driven Decisions:** Provides insights for optimizing future events based on feedback and resource allocation.
 
 
-Getting started <br>
+# Getting started <br>
 
-Prerequisites
+# Prerequisites
 Download Node.js and npm here: https://nodejs.org
 Download MongoDb in you System : https://www.mongodb.com/try/download/community or also use MongoDB Atlas
 Installation
@@ -35,7 +35,7 @@ Installation
 3  and run nodemon index
 4  Go to http://localhost:3000/Home to see your app.
 
-Built with
+# Built with
 
 Express.js - Node.js web application framework
 mongoose - MongoDB object modeling for Node.js
