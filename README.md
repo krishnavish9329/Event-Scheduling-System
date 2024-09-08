@@ -18,13 +18,13 @@ An Event Scheduling System is a software application designed to streamline the 
 **Reporting and Analytics:** The system can generate reports and provide analytics on attendance, event feedback, resource utilization, and more for post-event evaluation.
 
 # Benefits:
-**Improved Efficiency:** Automates the manual tasks of scheduling and managing events.
-**Enhanced Communication:** Ensures timely communication with participants through notifications and reminders.
-**Reduced Scheduling Conflicts:** Offers real-time updates and resource management to avoid double bookings.
-**Data-Driven Decisions:** Provides insights for optimizing future events based on feedback and resource allocation.
+**Improved Efficiency:** Automates the manual tasks of scheduling and managing events. <br>
+**Enhanced Communication:** Ensures timely communication with participants through notifications and reminders. <br>
+**Reduced Scheduling Conflicts:** Offers real-time updates and resource management to avoid double bookings.<br>
+**Data-Driven Decisions:** Provides insights for optimizing future events based on feedback and resource allocation.<br>
 
 
-# Getting started <br>
+# Getting started <hr>
 
 # Prerequisites
 Download Node.js and npm here: https://nodejs.org
