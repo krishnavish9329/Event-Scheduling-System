@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=">
+    <title>Admain </title>
+    <link rel="stylesheet" href="/DataEntry.css">
+</head>
+<body>
+    <header class="Header">
+        <h1 class="Header_h1">Admain</h1>
+        <a class="Header_a" href="/Home">Home</a>
+    </header>
+    <!-- <main class="main" style="height: 300px;">
+        <form action="" method="" class="entery_data"> 
+            <div class="field">
+                <input type="text" class="input" placeholder="Name">
+            </div>
+            <div class="field">
+                <input type="text" class="input" placeholder="Email Address" >
+            </div>
+            <div class="field">
+                <input type="text" class="input" placeholder="Event Name" >
+            </div>
+            <div class="field">
+                <input type="number" class="input" placeholder="Duration Time minut">
+            </div>
+            <div class="field_but">
+                <input type="button" id="f_s_but" value="Submit">
+            </div>
+        </form>
+    </main> -->
+    <div>
+        <% if(data.length>0) {%>
+        <table class="table">
+
+            <tr class="table_tr">
+                <th class="table_td">Name</th>
+                <th class="table_td">Email</th>
+                <th class="table_td">Duration</th>
+                <th class="table_td">Event Name</th>
+                <th class="table_td">Starting Time</th>
+                <th class="table_td">Ending Time</th>
+                <th class="table_td">Button</th>
+            </tr>
+            <% for (let i=0;i<data.length;i++){%>
+            <tr class="Table_tr">
+                <td class="table_td"><%- data[i].username %></td>
+                <td class="table_td"><%- data[i].gmail %></td>
+                <td class="table_td"><%- data[i].duration %></td>
+                <td class="table_td"><%- data[i].eventName %></td>
+                <td class="table_td"><%- data[i].StartingTime %></td>
+                <td class="table_td"><%- data[i].endingTime %></td>
+                <td class="table_td"><a  href="/login/DataEntry/delete?id=<%- data[i]._id %>&gmail=<%- data[i].gmail %>"><Button class="Delete_but">Delete</Button></td></a>
+            </tr>
+        <% }}else{%>
+            <H1>no data found  or selected</H1>
+        <%}%>
+
+        </table>
+
+    </div>
+    <footer>
+
+    </footer>
+</body>
+</html>

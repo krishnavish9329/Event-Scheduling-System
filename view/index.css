@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(123, 224, 241);
+    /* font-family: cursive; */
+}
+.main{
+    width: 96%;
+    margin: 23px;
+    display: flex;
+    border-radius: 54px;
+    height: 443px;
+    font-family: cursive;
+}
+.m_left{
+    width: 65%;
+    border: 2px solid black;
+    margin-right: 26px;
+    border-radius: 54px;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 1.1);
+}
+.m_left h1{
+    padding: 25px;
+    text-align: center;
+}
+
+.m_left p{
+    font-size: 23px;
+    padding: 1px 65px;
+}
+.m_left a{
+    padding: 5px 67px;
+    font-size: 25px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 54px;
+    margin: 2px 63px;
+    color: black;
+    text-decoration: none;
+}
+.m_left a:hover{
+    border: 2px solid rgb(123, 224, 241);
+    background-color: black;
+    color: rgb(123, 224, 241);
+    text-decoration: none;
+}
+.m_right{
+    border: 2px solid rgba(7, 7, 7, 0);
+    border-radius: 54px;
+    width: 33%;
+    /* box-shadow: 0 7px 20px rgba(0, 0, 0, 1.1); */
+}
+.m_right:hover{
+    border: 2px solid black;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 1.1); 
+}
+ .m_right img{
+    height: 350px;
+    width: 350px;
+    padding: 14px 41px;
+}
+
+.Feature{
+    height: 700px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 54px;
+    margin: 22px;
+    font-family: cursive;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 1.1); 
+}
+
+.Feature h1{
+    text-align: center;
+    margin: 21px;
+   
+}
+.Feature p{
+    font-size: 23px;
+    padding: 1px 65px;
+}

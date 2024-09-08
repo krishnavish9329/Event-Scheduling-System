@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(123, 224, 241);
+    font-family: cursive;
+}
+.Header{
+    display: inline-flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+    margin: 23px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 54px;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 1.1);
+}
+.Header_h1{
+    padding-left: 21px;
+
+}
+.Header_a{
+    color: #000000;
+    padding: 1px 44px;
+    text-decoration: none;
+    font-size: 33px;
+    border: 2px solid #000000;
+    border-radius: 34px;
+    text-align: center;
+}
+.Header_a:hover{
+    color:rgb(123, 224, 241);
+    background-color: #000000;
+}
+.main{
+    border: 2px solid black;
+    border-radius: 45px;
+    margin: 30px auto;
+    max-width: 324px;
+    height: 412px;
+}
+.entery_data{
+
+}
+.field{
+    height: 35px;
+    max-height: 50px;
+    border-radius: 55px;
+    border: 2px solid black;
+    max-width: 283px;
+    margin: 18px;
+}
+.field_but{
+    height: 35px;
+    max-height: 50px;
+    border-radius: 55px;
+    border: 2px solid black;
+    max-width: 83px;
+    margin: 18px;
+}
+#f_s_but
+{
+    padding: 1px 3px;
+    border-radius: 53px;
+    font-size: 22px;
+    font-family: cursive;
+    background-color: rgb(123, 224, 241);
+    color: #000000;
+}
+#f_s_but:hover{
+    background-color: #000000;
+    color: rgb(123, 224, 241);
+    font-family: cursive;
+}
+.input
+{
+    padding: 1px 6px;
+    border-radius: 53px;
+    font-size: 22px;
+    font-family: cursive;
+    width: 267px;
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+.table
+{
+    margin: 40px auto;
+}
+.table_tr{
+    height: 46px;
+}
+.table_td{
+    font-size: 21px;
+    max-height: 60px;
+    width: 203px;
+    max-width: 205px;
+    height: 53px;
+}
+
+.Delete_but{
+    padding: 5px;
+    margin: 6px 66px;
+    border: 2px solid black;
+    border-radius: 53px;
+    background-color: rgb(123, 224, 241);
+    color: #000000;
+    font-family: cursive;
+    font-size: 20px;
+
+}
+.Delete_but:hover{
+    background-color: #000000;
+    color: rgb(123, 224, 241);
+    font-family: cursive;
+    font-size: 20px;
+}

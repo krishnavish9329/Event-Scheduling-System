@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=">
+    <title>Entry Of Event Scheduling </title>
+    <link rel="stylesheet" href="/DataEntry.css">
+</head>
+<body>
+    <header class="Header">
+        <h1 class="Header_h1">User Entry the Event Timeing</h1>
+        <a class="Header_a" href="/Home">Home</a>
+    </header>
+    <main class="main">
+        <form action="/login/DataEntry" method="post" class="entery_data"> 
+            <div class="field">
+                <input type="text" class="input" placeholder="Name"  name="Username" required>
+            </div>
+            <div class="field">
+                <input type="text" class="input" placeholder="Email Address" name="email" required>
+            </div>
+            <div class="field">
+                <input type="text" class="input" placeholder="Event Name" name="Event_name" required>
+            </div>
+            <div class="field">
+                <input type="number" class="input" placeholder="Duration Time minut" name="duratoin" required>
+            </div>
+            <div class="field">
+                <input type="datetime-local" class="input" placeholder="Event Starting Time" name="StartingTime" required>
+            </div>
+            <div class="field">
+                <input type="datetime-local" class="input" placeholder="Event Ending Time" name="EndingTime" required>
+            </div>
+            <div class="field_but">
+                <input type="submit" id="f_s_but"  value="Submit">
+            </div>
+        </form>
+    </main>
+    <div>
+
+        <% if(data.length>0) {%>
+        <table class="table">
+            <tr class="table_tr">
+                <th class="table_td">Event Name</th>
+                <th class="table_td">Starting Time</th>
+                <th class="table_td">Ending Time</th>
+                <th class="table_td">Duration</th>
+                <th class="table_td">Button</th>
+            </tr>
+            <% for (let i=0;i<data.length;i++){%>
+            <tr class="Table_tr">
+                <td class="table_td"><%- data[i].eventName %></td>
+                <td class="table_td"><%- data[i].StartingTime %></td>
+                <td class="table_td"><%- data[i].endingTime %></td>
+                <td class="table_td"><%- data[i].duration %></td>
+                <td class="table_td">
+                    <a href="/login/DataEntry/delete?id=<%- data[i]._id %>&gmail=<%- data[i].gmail %>"><Button class="Delete_but">Delete</Button></a>
+                </td>
+            </tr>
+            <% }}else{%>
+                <H1>no data found  or selected</H1>
+              <%}%>
+
+        </table>
+
+    </div>
+    <footer>
+
+    </footer>
+</body>
+</html>
